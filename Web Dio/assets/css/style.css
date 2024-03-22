@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+
+.conteiner-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+    
+}
+.item1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.item3{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+}
+.conteiner-main{
+    display: flex;
+    /*background-color: blue;*/
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+    
+}   
+.video{
+    display: flex;
+    flex-direction: column;
+   /* background-color: orange;*/
+    padding: 20px;
+    gap: 5px;
+    text-align: justify;
+    width: 900px;
+    padding-left: 20px;
+    
+    
+}
+.image{
+    align-self: center;  
+}
+iframe{
+    /*background-color: black;*/
+    width: 700px;
+    height: 400px;
+}
+.tumble{
+    /*background-color: rgb(236, 221, 201);*/
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;   
+}
+#sub{
+    text-align: justify;
+    padding: 10px;
+    align-self: flex-start;
+    margin-left: 6%;
+}
+.legenda{
+    display: flex;
+    align-items: center; 
+}
+.legenda h1{
+    font-size: 15px;
+    padding: 3px;
+}
+.legenda p{
+    font-size: 10px;
+    padding: 3px;
+}
